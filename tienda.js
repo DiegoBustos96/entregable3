@@ -53,7 +53,7 @@ class ProductManager {
   }
 }
 
-module.exports = ProductManager;
+
 
 const productManager = new ProductManager("products.json");
 
