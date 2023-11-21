@@ -1,4 +1,4 @@
-const fs = require("fs");
+import fs from 'fs';
 
 export class ProductManager {
   constructor(filePath) {
@@ -58,13 +58,106 @@ export class ProductManager {
 const productManager = new ProductManager("products.json");
 
 productManager.addProduct({
+  id:1,
   title: "Camiseta",
   description: "Camiseta de algodón",
-  price: 19.99,
+  price: "$"+ 19.990,
   thumbnail: "camiseta.jpg",
   code: "CAM001",
   stock: 100,
 });
+
+productManager.addProduct({
+  id:2,
+  title: "Pantalón",
+  description: "Pantalón de mezclilla",
+  price: "$"+15.990,
+  thumbnail: "pantalon.jpg",
+  code: "PAN002",
+  stock: 100,
+});
+
+
+productManager.addProduct({
+  id:3,
+  title: "Buzo",
+  description: "Buzo con diseño rata",
+  price: "$"+25.990,
+  thumbnail: "pantalon.jpg",
+  code: "BUZ003",
+  stock: 100,
+});
+
+productManager.addProduct({
+  id:4,
+  title: "Guantes",
+  description: "Guantes de invierno",
+  price: "$"+5.990,
+  thumbnail: "guantes.jpg",
+  code: "GNT003",
+  stock: 100,
+});
+
+productManager.addProduct({
+  id:5,
+  title: "Bufanda",
+  description: "Bufanda facherita",
+  price: "$"+9.990,
+  thumbnail: "bufanda.jpg",
+  code: "BFD005",
+  stock: 100,
+});
+
+productManager.addProduct({
+  id:6,
+  title: "Cinturón",
+  description: "Cinturón hombre",
+  price: "$"+12.990,
+  thumbnail: "cinturon.jpg",
+  code: "CTN006",
+  stock: 100,
+});
+
+productManager.addProduct({
+  id:7,
+  title: "Chaqueta impermeable",
+  description: "Chaqueta impermeable",
+  price: "$"+25.990,
+  thumbnail: "impermeable.jpg",
+  code: "IPM007",
+  stock: 100,
+});
+
+productManager.addProduct({
+  id:8,
+  title: "Chaleco verano",
+  description: "Chaleco verano",
+  price: "$"+20.990,
+  thumbnail: "chaleco.jpg",
+  code: "CLO008",
+  stock: 100,
+});
+
+productManager.addProduct({
+  id:9,
+  title: "Calcetines",
+  description: "Calcetines",
+  price: "$"+3.990,
+  thumbnail: "calcetines.jpg",
+  code: "CLO009",
+  stock: 100,
+});
+
+productManager.addProduct({
+  id:10,
+  title: "Polera",
+  description: "Polera manga corta",
+  price: "$"+10.990,
+  thumbnail: "polera.jpg",
+  code: "POL010",
+  stock: 100,
+});
+
 
 const allProducts = productManager.getProducts();
 console.log(allProducts);
@@ -83,4 +176,4 @@ productManager.updateProduct(1, {
 
 productManager.deleteProduct(1);
 
-export default tienda;
+export default ProductManager;

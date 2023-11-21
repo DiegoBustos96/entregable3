@@ -1,1 +1,200 @@
-[]
+[
+  {
+    "id": 3,
+    "title": "Camiseta",
+    "description": "Camiseta de algodón",
+    "price": "$19.99",
+    "thumbnail": "camiseta.jpg",
+    "code": "CAM001",
+    "stock": 100
+  },
+  {
+    "id": 4,
+    "title": "Pantalón",
+    "description": "Pantalón de mezclilla",
+    "price": "$15.99",
+    "thumbnail": "pantalon.jpg",
+    "code": "PAN002",
+    "stock": 100
+  },
+  {
+    "id": 5,
+    "title": "Buzo",
+    "description": "Buzo con diseño rata",
+    "price": "$25.99",
+    "thumbnail": "pantalon.jpg",
+    "code": "BUZ003",
+    "stock": 100
+  },
+  {
+    "id": 6,
+    "title": "Guantes",
+    "description": "Guantes de invierno",
+    "price": "$5.99",
+    "thumbnail": "guantes.jpg",
+    "code": "GNT003",
+    "stock": 100
+  },
+  {
+    "id": 7,
+    "title": "Camiseta",
+    "description": "Camiseta de algodón",
+    "price": "$19.99",
+    "thumbnail": "camiseta.jpg",
+    "code": "CAM001",
+    "stock": 100
+  },
+  {
+    "id": 8,
+    "title": "Pantalón",
+    "description": "Pantalón de mezclilla",
+    "price": "$15.99",
+    "thumbnail": "pantalon.jpg",
+    "code": "PAN002",
+    "stock": 100
+  },
+  {
+    "id": 9,
+    "title": "Buzo",
+    "description": "Buzo con diseño rata",
+    "price": "$25.99",
+    "thumbnail": "pantalon.jpg",
+    "code": "BUZ003",
+    "stock": 100
+  },
+  {
+    "id": 10,
+    "title": "Guantes",
+    "description": "Guantes de invierno",
+    "price": "$5.99",
+    "thumbnail": "guantes.jpg",
+    "code": "GNT003",
+    "stock": 100
+  },
+  {
+    "id": 11,
+    "title": "Camiseta",
+    "description": "Camiseta de algodón",
+    "price": "$19.99",
+    "thumbnail": "camiseta.jpg",
+    "code": "CAM001",
+    "stock": 100
+  },
+  {
+    "id": 12,
+    "title": "Pantalón",
+    "description": "Pantalón de mezclilla",
+    "price": "$15.99",
+    "thumbnail": "pantalon.jpg",
+    "code": "PAN002",
+    "stock": 100
+  },
+  {
+    "id": 13,
+    "title": "Buzo",
+    "description": "Buzo con diseño rata",
+    "price": "$25.99",
+    "thumbnail": "pantalon.jpg",
+    "code": "BUZ003",
+    "stock": 100
+  },
+  {
+    "id": 14,
+    "title": "Guantes",
+    "description": "Guantes de invierno",
+    "price": "$5.99",
+    "thumbnail": "guantes.jpg",
+    "code": "GNT003",
+    "stock": 100
+  },
+  {
+    "id": 15,
+    "title": "Camiseta",
+    "description": "Camiseta de algodón",
+    "price": "$19.99",
+    "thumbnail": "camiseta.jpg",
+    "code": "CAM001",
+    "stock": 100
+  },
+  {
+    "id": 16,
+    "title": "Pantalón",
+    "description": "Pantalón de mezclilla",
+    "price": "$15.99",
+    "thumbnail": "pantalon.jpg",
+    "code": "PAN002",
+    "stock": 100
+  },
+  {
+    "id": 17,
+    "title": "Buzo",
+    "description": "Buzo con diseño rata",
+    "price": "$25.99",
+    "thumbnail": "pantalon.jpg",
+    "code": "BUZ003",
+    "stock": 100
+  },
+  {
+    "id": 18,
+    "title": "Guantes",
+    "description": "Guantes de invierno",
+    "price": "$5.99",
+    "thumbnail": "guantes.jpg",
+    "code": "GNT003",
+    "stock": 100
+  },
+  {
+    "id": 19,
+    "title": "Bufanda",
+    "description": "Bufanda facherita",
+    "price": "$9.99",
+    "thumbnail": "bufanda.jpg",
+    "code": "BFD005",
+    "stock": 100
+  },
+  {
+    "id": 20,
+    "title": "Cinturón",
+    "description": "Cinturón hombre",
+    "price": "$12.99",
+    "thumbnail": "cinturon.jpg",
+    "code": "CTN006",
+    "stock": 100
+  },
+  {
+    "id": 21,
+    "title": "Chaqueta impermeable",
+    "description": "Chaqueta impermeable",
+    "price": "$25.99",
+    "thumbnail": "impermeable.jpg",
+    "code": "IPM007",
+    "stock": 100
+  },
+  {
+    "id": 22,
+    "title": "Chaleco verano",
+    "description": "Chaleco verano",
+    "price": "$20.99",
+    "thumbnail": "chaleco.jpg",
+    "code": "CLO008",
+    "stock": 100
+  },
+  {
+    "id": 23,
+    "title": "Calcetines",
+    "description": "Calcetines",
+    "price": "$3.99",
+    "thumbnail": "calcetines.jpg",
+    "code": "CLO009",
+    "stock": 100
+  },
+  {
+    "id": 24,
+    "title": "Polera",
+    "description": "Polera manga corta",
+    "price": "$10.99",
+    "thumbnail": "polera.jpg",
+    "code": "POL010",
+    "stock": 100
+  }
+]

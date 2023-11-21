@@ -2,12 +2,12 @@ import express from "express";
 import ProductManager from "../tienda";
 
 const router = express.Router();
-const productManager = new ProductManager(`./productos.json`);
+const productManager = new ProductManager('./productos.json');
 
-router.get("/", async (req,res) => {
+router.get("/", (req,res) => {
     try{
         const limit = req.query.limit;
-        const products = await productManager.getProducts();
+        const products = productManager.getProducts();
 
         if(limit){
             res.json(products.slice(0,limit));
@@ -22,10 +22,10 @@ router.get("/", async (req,res) => {
     }
 });
 
-router.get('/:pid', async (req,res) => {
+router.get('/:pid', (req,res) => {
     try{
         const productId = parseInt(req.params.pid);
-        const product = await productManager.getProductById(productId);
+        const product = productManager.getProductById(productId);
 
         if(product){
             res.json(product);
